@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.demo.gui3Controller"
+      prefHeight="400.0" prefWidth="600.0">
+    <MenuBar>
+        <Menu text="File">
+            <MenuItem text="New" onAction="#handleNew"/>
+            <MenuItem text="Open File" onAction="#handleOpenFile"/>
+            <MenuItem text="Exit" onAction="#handleExit"/>
+        </Menu>
+        <Menu text="Edit"/>
+        <Menu text="Help"/>
+    </MenuBar>
+</VBox>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.demo.gui4Controller"
+      alignment="CENTER" spacing="10.0">
+    <Circle fx:id="circle" radius="20" stroke="black" fill="white"/>
+    <HBox alignment="CENTER" spacing="10.0">
+        <Button text="Enlarge" onAction="#handleEnlarge"/>
+        <Button text="Shrink" onAction="#handleShrink"/>
+    </HBox>
+</VBox>
